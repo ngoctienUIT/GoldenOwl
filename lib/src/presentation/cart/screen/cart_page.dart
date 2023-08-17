@@ -170,7 +170,7 @@ class CartView extends StatelessWidget {
                       image: AppImages.imgTrash,
                       color: AppColors.yellow,
                     ),
-                    const SizedBox(width: 20)
+                    const SizedBox(width: 25)
                   ],
                 )
               ],

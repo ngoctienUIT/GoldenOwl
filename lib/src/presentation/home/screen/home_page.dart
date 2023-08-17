@@ -128,7 +128,10 @@ class HomeView extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 20),
-        Text(shoes.description, style: const TextStyle(color: AppColors.gray)),
+        Text(
+          shoes.description,
+          style: const TextStyle(color: AppColors.gray, fontSize: 16),
+        ),
         const SizedBox(height: 20),
         Row(
           children: [
